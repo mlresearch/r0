@@ -1,0 +1,83 @@
+---
+booktitle: Pre-proceedings of the Fifth International Workshop on Artificial Intelligence
+  and Statistics
+shortname: AISTATS
+year: '1995'
+start: 1995-01-04
+end: 1995-01-07
+published: 2022-05-01
+firstpublished: 1995-01-05
+url: https://proceedings.mlr.press
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: Aistats1995
+month: 0
+cycles: false
+bibtex_editor: Fisher, Doug and Lenz, Hans{-}Joachim
+editor:
+- given: Doug
+  family: Fisher
+- given: Hans-Joachim
+  family: Lenz
+title: Proceedings of Machine Learning Research
+description: |
+  Pre-proceedings of the Fifth International Workshop on Artificial Intelligence and Statistics
+    Held in Fort Lauderdale, FL, USA on 04-07 January 1995
+
+  Published as Reissue 0 by the Proceedings of Machine Learning Research on 01 May 2022.
+
+  Volume Edited by:
+    Doug Fisher
+    Hans-Joachim Lenz
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: 04--07 Jan
+author:
+  name: PMLR
+baseurl: "/r0"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: r0
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Reissue
+volume_dir: r0
+volume: R0
+email: ''
+conference:
+  name: Pre-proceedings of the Fifth International Workshop on Artificial Intelligence
+    and Statistics
+  url:
+  location: Fort Lauderdale, FL, USA
+  dates:
+  - 1995-01-04
+  - 1995-01-05
+  - 1995-01-06
+  - 1995-01-07
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+orig_bibfile: "/Users/neil/mlresearch/r0/aistats95.bib"
+# Site settings
+# Original source:  /Users/neil/mlresearch/r0/aistats95.bib
