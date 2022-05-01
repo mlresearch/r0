@@ -16,10 +16,10 @@ id: malvestuto95a
 month: 0
 tex_title: An Axiomatization of Loglinear Models with an Application to the Model-Search
   Problem
-firstpage: 342
-lastpage: 353
-page: 342-353
-order: 342
+firstpage: 354
+lastpage: 365
+page: 354-365
+order: 354
 cycles: false
 bibtex_author: Malvestuto, Francesco M.
 author:
