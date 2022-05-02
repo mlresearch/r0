@@ -92,11 +92,11 @@ collections:
                   hint: Provide the name of the consortium.
                   widget: string
                   required: false
-                  - name: url
-                    label: Link
-                    hint: Provide a URL link to the consortium.
-                    widget: string
-                    required: false
+                - name: url
+                  label: Link
+                  hint: Provide a URL link to the consortium.
+                  widget: string
+                  required: false
           - label: 'Conference description'
             name: 'description'
             widget: text
