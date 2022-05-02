@@ -81,44 +81,22 @@ collections:
               name: suffix
               widget: string
               required: false
-            - label: 'Person Page'
-              hint: "Use this field if the author is a member of ml@cl"
-              name: 'person_page'
-              widget: 'relation'
-              collection: 'people'
-              search_fields: ["given", "family"]
-              value_field: "{{slug}}"
-              display_fields: ["given", "family"]
-              options_length: 999
-              multiple: false
-              required: false          
             - label: Consortium
               name: consortium
               hint: "Some papers are written by a consortium of authors. If that's the case for this paper use this field to fill in the consortium."
               widget: "object"
               required: false
               fields:
-            - name: name
-              label: Name
-              hint: Provide the name of the consortium.
-              widget: string
-              required: false
-            - name: url
-              label: Link
-              hint: Provide a URL link to the consortium.
-              widget: string
-              required: false
-            - label: 'Person Page'
-              hint: "Use this field for memmbers of consortium from ml@cl"
-              name: 'person_pages'
-              widget: 'relation'
-              collection: 'people'
-              search_fields: ["given", "family"]
-              value_field: "{{slug}}"
-              display_fields: ["given", "family"]
-              options_length: 999
-              multiple: true
-              required: false          
+                - name: name
+                  label: Name
+                  hint: Provide the name of the consortium.
+                  widget: string
+                  required: false
+                  - name: url
+                    label: Link
+                    hint: Provide a URL link to the consortium.
+                    widget: string
+                    required: false
           - label: 'Conference description'
             name: 'description'
             widget: text
