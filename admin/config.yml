@@ -328,25 +328,3 @@ collections:
         widget: 'markdown'
         required: false
   
-  # Opportunities Collection
-  - label: 'Opportunities'
-    name: 'opportunities'
-    folder: '_opportunities/'
-    create: true
-    slug: '{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - label: 'Layout'
-        name: 'layout'
-        widget: 'hidden'
-        default: 'opportunities-single'
-      - label: 'Title'
-        name: 'title'
-        widget: 'string'
-      - label: 'Excerpt'
-        name: 'excerpt'
-        widget: 'text'
-      - label: 'Body'
-        name: 'body'
-        widget: 'markdown'    
